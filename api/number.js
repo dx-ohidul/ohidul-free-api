@@ -11,7 +11,7 @@ export default async function handler(req, res) {
 
   try {
     const response = await fetch(
-      `https://free-api-anuragsingh.vercel.app/api/number?num=${encodeURIComponent(num)}`
+      `https://ohidul-free-api.vercel.app/api/number?num=${encodeURIComponent(num)}`
     );
 
     if (!response.ok) {
